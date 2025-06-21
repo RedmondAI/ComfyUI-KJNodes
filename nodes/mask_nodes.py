@@ -14,7 +14,7 @@ from nodes import MAX_RESOLUTION
 
 import folder_paths
 
-from ..utility.utility import tensor2pil, pil2tensor
+from comfy_kjnodes.utility.utility import tensor2pil, pil2tensor
 
 script_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
