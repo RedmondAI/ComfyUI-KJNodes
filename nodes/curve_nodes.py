@@ -3,7 +3,7 @@ from torchvision import transforms
 import json
 from PIL import Image, ImageDraw, ImageFont, ImageColor, ImageFilter, ImageChops
 import numpy as np
-from ..utility.utility import pil2tensor, tensor2pil
+from comfy_kjnodes.utility.utility import pil2tensor, tensor2pil
 import folder_paths
 import io
 import base64
