@@ -1,4 +1,4 @@
-from ..utility.utility import tensor2pil, pil2tensor
+from comfy_kjnodes.utility.utility import tensor2pil, pil2tensor
 from PIL import Image, ImageDraw, ImageFilter
 import numpy as np
 import torch
