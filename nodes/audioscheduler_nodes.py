@@ -3,7 +3,7 @@ import torch
 from torchvision.transforms import functional as TF
 from PIL import Image, ImageDraw
 import numpy as np
-from ..utility.utility import pil2tensor
+from comfy_kjnodes.utility.utility import pil2tensor
 from nodes import MAX_RESOLUTION
 
 class NormalizedAmplitudeToMask:
